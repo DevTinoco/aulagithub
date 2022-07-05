@@ -5,11 +5,11 @@ const p1={
 
 }
 
-const Produto = function(name, price, quantity){
+const Product = function(name, price, quantity){
     this.name = name;
     this.price = price;
     this.quantity = quantity;
 
 }
 
-const p2 = new Produto("Violão Turibio Santos", 10.000, 2 );
+const p2 = new Product("Violão Turibio Santos", 10.000, 2 );
